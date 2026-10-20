@@ -3,7 +3,7 @@ name: CI Pipeline
 
 on:
   push:
-    branches: [task/tracer-setup]
+    branches:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
